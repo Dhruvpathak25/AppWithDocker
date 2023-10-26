@@ -1,6 +1,10 @@
 const resolvers = {
   Query: {
-    hello: () => "Hello, World!",
+    hello: () => {
+      // to break the backend
+      let sum = sum + inputNumber;
+      return "Hello world!";
+    },
   },
 };
 
