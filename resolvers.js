@@ -4,6 +4,7 @@ const resolvers = {
       // to break the backend
       let sum = sum + inputNumber;
       return "Hello world!";
+      
     },
   },
 };
