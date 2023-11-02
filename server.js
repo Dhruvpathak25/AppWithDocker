@@ -15,7 +15,7 @@ async function startServer() {
 }
 
 startServer().then(() => {
-  app.listen({ port: 3001 }, () =>
-    console.log("Server listening on port", 3001)
+  app.listen({ port: 3000 }, () =>
+    console.log("Server listening on port", 3000)
   );
 });
