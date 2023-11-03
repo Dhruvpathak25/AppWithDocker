@@ -11,6 +11,6 @@ RUN apt-get -y upgrade
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 3000
 
-CMD ["npm", "run", "server"]
+CMD ["node", "server.js"]

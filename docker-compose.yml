@@ -1,0 +1,8 @@
+version: '3'
+services:
+    web:
+    image: appwithdocker.azurecr.io/appwithdocker:latest 
+    build: .
+    ports:
+      - "8080:80"
+    restart: on-failure
